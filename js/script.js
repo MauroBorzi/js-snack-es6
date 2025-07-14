@@ -74,7 +74,7 @@ const clubs = [
     team: "Atalanta",
     puntiFatti: 0,
     falliSubiti: 0
-  },
+  }
 ]
 
 for (i = 0; i < clubs.length; i++) {
