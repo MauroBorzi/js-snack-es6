@@ -3,6 +3,37 @@
 // Ogni oggetto descriverà una bici da corsa con le seguenti proprietà: nome e peso.
 // Stampare a schermo la bici con peso minore.
 
+const raceBikes = [
+  {
+    brand: "bianchi",
+    kg: 5.8
+  },
+  {
+    brand: "specialized",
+    kg: 5.5
+  },
+  {
+    brand: "cervelo",
+    kg: 6.2
+  },
+  {
+    brand: "scott",
+    kg: 7.4
+  }
+]
+
+console.log(raceBikes)
+
+let raceBike = raceBikes[0]
+
+for (i = 0; i < raceBikes.length; i++) {
+
+  if (raceBikes[i].kg < raceBike.kg) {
+    raceBike = raceBikes[i]
+  }
+}
+
+console.log(raceBike)
 
 
 
