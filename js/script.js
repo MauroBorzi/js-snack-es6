@@ -84,3 +84,17 @@ for (i = 0; i < clubs.length; i++) {
 
 
 console.log(clubs)
+
+
+
+const newClubs = []
+
+for (i = 0; i < clubs.length; i++) {
+  newClubs.push({
+    team: clubs[i].team,
+    falliSubiti: clubs[i].falliSubiti
+  })
+}
+
+
+console.log(newClubs)
